@@ -1,0 +1,13 @@
+BoxLayout:
+    orientation: "vertical"
+
+    TextInput:
+        id: task_input
+        hint_text: "Enter Task"
+        size_hint_y: 0.2
+        multiline: False
+
+    Button:
+        text: "Add Task"
+        size_hint_y: 0.2
+        on_press: root.add_task()
